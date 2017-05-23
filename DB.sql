@@ -51,9 +51,8 @@ book_code		varchar(255)	not null,
 book_name		varchar(255)	not null,
 book_quantity	int				not null,
 book_price		int				not null,
-total_price		int				not null,
 user_address	varchar(255)	not null,
-bill_time		timestamp		not null
+bill_date		timestamp		not null
 ) ;
 
 -- create table
